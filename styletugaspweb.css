@@ -1,0 +1,174 @@
+/* universal selector */
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+/* class selector */
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    padding-top: 15px;
+}
+
+.title a{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    font-family: Georgia;
+    color: black;
+    padding: 0px 90px 0px 0px;
+}
+
+.menu{
+    float: center;
+}
+
+.contact{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: "Times New Roman";
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-right: 30%;
+    color: rgb(109, 103, 103);
+    margin-bottom: 5%;
+}
+
+section ul{
+    list-style-type: none
+}
+
+section ul li{
+    float: left;
+}
+
+.foto {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.foto img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+a.tbl-biru {
+    background: rgba(66, 123, 236, 0.959);
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background-color: tomato;
+    text-decoration: none;
+}
+
+a.tbl-blank {
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: rgba(66, 123, 236, 0.959);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-blank:hover {
+    color: white;
+    background-color: rgba(66, 123, 236, 0.959);
+    text-decoration: none;
+}
+
+.final {
+    padding: 0px 0px 0px 0px;
+}
+
+ 
+.footer {
+    width: 70%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 600;
+    font-size: 120%;
+    margin-bottom: 20px;
+    color:rgb(175, 175, 189);
+    width: 20%;
+    line-height: 100px;
+}
